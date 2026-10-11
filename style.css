@@ -1,0 +1,15 @@
+/*
+Theme Name: Môi Trường Nam Lâm
+Theme URI: https://moitruongnamlam.com/
+Author: Môi Trường Nam Lâm
+Author URI: https://moitruongnamlam.com/
+Description: Theme giao diện tùy biến chuyên sâu dành riêng cho Công Ty TNHH TM-DV Công Nghệ Môi Trường Nam Lâm. Thiết kế theo tiêu chuẩn B2B Clean & Corporate, tối ưu hóa tốc độ tải trang, không phụ thuộc plugin nặng, hoàn toàn tương thích với dữ liệu bài viết hiện có trên WordPress.
+Version: 1.0.0
+Requires at least: 5.8
+Tested up to: 6.7
+Requires PHP: 7.4
+License: Proprietary
+Text Domain: namlam
+*/
+
+/* Toàn bộ các module CSS chính được nạp tự động qua functions.php từ thư mục css/ */

@@ -1,0 +1,171 @@
+/**
+ * Môi Trường Nam Lâm - Responsive Styles
+ */
+
+/* ==========================================================================
+   TABLET & BELOW (< 1024px)
+   ========================================================================== */
+@media (max-width: 1023px) {
+  .nav-menu {
+    display: none; /* Hide desktop nav */
+  }
+
+  .mobile-toggle {
+    display: inline-flex; /* Show mobile hamburger */
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: var(--space-6);
+  }
+
+  .stat-item:nth-child(2) {
+    border-right: none;
+  }
+
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .product-detail-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .partner-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ==========================================================================
+   MOBILE PHONES (< 768px)
+   ========================================================================== */
+@media (max-width: 767px) {
+  .topbar {
+    display: none; /* Keep clean on small phones */
+  }
+
+  .navbar {
+    height: 64px;
+  }
+
+  .brand-logo-img {
+    height: 42px;
+  }
+
+  .brand-name {
+    font-size: 0.95rem;
+  }
+
+  .brand-slogan {
+    display: none;
+  }
+
+  .section {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-8);
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-home {
+    padding: var(--space-12) 0;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-desc {
+    font-size: var(--font-size-base);
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    row-gap: var(--space-6);
+  }
+
+  .stat-item {
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: var(--space-4);
+  }
+
+  .stat-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .partner-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-banner-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cta-banner-actions {
+    width: 100%;
+  }
+
+  .cta-banner-actions .btn {
+    width: 100%;
+  }
+
+  .floating-hub {
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .floating-btn {
+    width: 46px;
+    height: 46px;
+  }
+
+  .back-to-top {
+    bottom: 16px;
+    left: 16px;
+    width: 38px;
+    height: 38px;
+  }
+
+  .form-card {
+    padding: var(--space-5);
+  }
+}
